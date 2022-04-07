@@ -94,6 +94,19 @@ textarea{
     background: url(/assets/img/sparkle.png) center no-repeat;
     background-size: cover;
 }
+.section:not(.hero)::before{
+    content: '';
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 80vw;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 101, 118,.08) 0%, rgba(255, 101, 118,0) 100%);
+    z-index: -1;
+}
+
+ 
 
 /* !HEADER */
 
@@ -275,9 +288,11 @@ textarea{
 .dark-theme .has-sparkles-alt::after{
     background: url(/assets/img/sparkle_alt_light.png) center no-repeat;
     background-size: cover;
-
 }
+
+
 /* !ABOUT ME STYLES */
+
 
 /* !PORTFOLIO STYLES */
 

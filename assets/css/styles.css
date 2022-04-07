@@ -292,6 +292,48 @@ textarea{
 
 
 /* !ABOUT ME STYLES */
+.section-description{
+    gap: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.description{
+    padding-top: 5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.description-image{
+    width: 25rem;
+    height: 25rem;
+    margin: 0 auto;
+    transform: rotate(20deg);
+}
+
+.description-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.description-image.has-sparkles::before,
+.description-image.has-sparkles::after{
+    width: 2rem;
+    height: 2rem;
+}
+
+.description-image.has-sparkles::before{
+    top: 2rem;
+    right: 1rem;
+}
+.description-image.has-sparkles::after{
+    top: 10rem;
+    right: -1rem;
+}
 
 
 /* !PORTFOLIO STYLES */

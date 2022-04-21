@@ -599,10 +599,6 @@ textarea{
         grid-row: 22/span 10;
 
     }
-    .portfolio-card-6{
-        grid-column: 1/4;
-        grid-row: 21/span 10;
-    }
     .input-group{
         display: flex;
         column-gap: 5rem;
@@ -611,3 +607,4 @@ textarea{
         padding-block: 5rem;
     }
 }
+

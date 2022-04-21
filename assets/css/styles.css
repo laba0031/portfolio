@@ -88,7 +88,7 @@ textarea{
 .has-sparkles::after{
     content: '';
     position: absolute;
-    background: url(/assets/img/sparkle.png) center no-repeat;
+    background: url(assets/img/sparkle.png) center no-repeat;
     background-size: cover;
 }
 .section:not(.hero)::before{
